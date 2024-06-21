@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: #203a39;
+    color: #b64348;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+.Copy {
+    text-align: right;
+    margin-top: 600px;
+}
+
+#changePic {
+    width: 400px; /* 必要に応じて調整 */
+    height: 300px; /* 必要に応じて調整 */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes imgfade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
